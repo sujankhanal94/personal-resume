@@ -1,0 +1,275 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+img {
+    margin-left: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+main.myself {
+    padding: 20px;
+    margin-left: 55px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+main.myself:hover {
+    background-color: #e6f7ff;
+}
+
+main.my-about {
+    padding: 20px;
+    margin-top: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+main.my-about:hover {
+    background-color: #e6f7ff;
+}
+
+main.my-certificate {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+main.my-certificate:hover {
+    background-color: #e6f7ff;
+}
+
+
+main.photo {
+    padding: 20px;
+    max-width: 800px;
+    margin-right: 60px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+main.photo:hover {
+    background-color: #e6f7ff;
+}
+
+h1, h2, h3 {
+    color: #4a90e2;
+}
+
+h2, h1, h3 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #4a90e2;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-inline-start: 10%;
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0f7fa;
+}
+
+footer {
+    text-align: center;
+    padding: 8px 0;
+    background: #4a90e2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+    list-style-type: none;
+}
+
+.sujan{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.sujan:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+.mail{
+    color: black;
+    text-decoration: none;
+}
+
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+}
+
+main.gettouch {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+main.gettouch:hover {
+    background-color: #e6f7ff;
+}
+
+main.form {
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+main.form:hover {
+    background-color: #e6f7ff;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-container form {
+    width: 100%;
+}
+
+.touch {
+    font-size: 19px;
+}
+
+.index-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.index-front{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+
+.k12 {
+    height: auto;
+    width: auto;
+
+}
