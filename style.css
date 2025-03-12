@@ -40,6 +40,10 @@ img {
     font-family: cursive;
     margin-left: 5px;
 }
+
+.logo a:hover {
+    color: #ffcc00;
+}
 li {
     display: inline-block;
     list-style: none;
