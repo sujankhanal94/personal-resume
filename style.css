@@ -346,3 +346,16 @@ button a {
 button:hover {
     background-color: #00fff7d6;
 }
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin-left: 600px;
+}
+.logo {
+    justify-content: right;
+    margin-right: 30px;
+}
